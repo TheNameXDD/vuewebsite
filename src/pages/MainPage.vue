@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="wrapper">
         <div class="header">
         <video autoplay loop class="back-video" muted plays-inline>
             <source src="../assets/video/robot.mp4" type="video/mp4">
@@ -21,13 +21,13 @@ export default {
 </script>
 
 <style>
-.html {
-    overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+
+.wrapper {
+    height: 100%;
 }
 
 .header {
-    height: 93%;
+    height: 90%;
     width: auto;
     position: relative;
 }
